@@ -124,7 +124,7 @@ app.post('/update-profile', upload.single('avatar'), function (req, res) {
 
 
   cloudinary.uploader.upload(req.file.path, async (error, result)=>{
-    console.log("====================================");
+    console.log("==================================+++==");
     if(result){
       console.log(result.secure_url);
 

@@ -159,7 +159,7 @@ app.post('/update-profile', upload.single('avatar'), function (req, res) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
-            console.log("====================================");
+            console.log("==================================+++==");
 
             if (!result) {
               _context3.next = 10;
